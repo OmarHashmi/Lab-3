@@ -5,6 +5,10 @@ public class AddressBook {
 
     public static void main(String[] args){
         System.out.println("Fuck");
+        BuddyInfo myPal=new BuddyInfo("Cahhrl","123 st","613");
+        AddressBook myBook=new AddressBook();
+        myBook.addBuddy(myPal);
+        myBook.removeBuddy(myPal);
     }
 
     AddressBook(){
