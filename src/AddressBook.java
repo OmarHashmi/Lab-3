@@ -21,4 +21,7 @@ public class AddressBook {
     public void removeBuddy(BuddyInfo oldPal){
         thePals.remove(oldPal);
     }
+    public void sayHi(){
+        System.out.println("Hi");
+    }
 }
